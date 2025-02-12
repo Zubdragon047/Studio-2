@@ -19,12 +19,6 @@ public class BallController : MonoBehaviour
         inputManager.onSpacePressed.AddListener(call: LaunchBall);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void LaunchBall()
     {
         if (isBallLaunched) return;
