@@ -12,7 +12,7 @@ public class FallTrigger : MonoBehaviour
         {
             isPinFallen = true;
             onPinFall?.Invoke();
-            Debug.Log($"{gameObject.name} is fallen");
+            //Debug.Log($"{gameObject.name} is fallen");
         }
     }
 }
